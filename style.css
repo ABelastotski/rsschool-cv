@@ -132,22 +132,6 @@
         margin: 2px;
         }
 
-        #right1 {
-          float: right;
-          display: block;
-          width: 100px;
-          height: 20px;
-          margin: 1px;
-          }
-          
-          #left1 {
-          float: left;
-          display: block;
-          width: 100px;
-          height: 20px;
-          margin: 1px;
-          }
-
         h2 {
           font-variant: small-caps;
       }
