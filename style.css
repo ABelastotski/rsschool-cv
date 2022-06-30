@@ -41,10 +41,30 @@
       }
 
       .container {
+        display: flex;
+        flex-direction: column;
         max-width: 1440px;
         margin: 0 auto;
+       
+      }
+  
+      .container div {
+        min-width: 200px;
+
+        border: 1px;
+      }
+       .container1 {
+        display: flex;
+        flex-direction: column;
+        max-width: 1440px;
+        margin: 1;
       }
 
+      .container1 div {
+        min-width: 200px;
+align-self: flex-end;
+        border: 1px;
+      }
       .nav-list {
         display: flex;
         justify-content: flex-end;
@@ -116,22 +136,11 @@
         color: #5d7260;
       }
 
-      #right {
-        float: right;
-        display: block;
-        width: 300px;
-        height: 90px;
-        margin: 2px;
-        }
-        
-        #left {
-        float: left;
-        display: block;
-        width: 600px;
-        height: 90px;
-        margin: 2px;
-        }
-
         h2 {
           font-variant: small-caps;
+      }
+
+      .button {
+        display: flex;
+
       }
